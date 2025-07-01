@@ -310,8 +310,42 @@
     bottom: 20px;
     left: 5%;
     padding: 20px;
+}
+
+.sec-5card1 {
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 5%;
+    padding: 20px;
 
 }
+
+.sec-5card1 p {
+    font-family: sans-serif;
+    margin-top: 20px;
+    line-height: 2;
+    display: none;
+    height: 200px;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.8;
+    
+}
+
+/* card-hover */
+
+.sec-5card:hover .sec-5card1 {
+    height: 200px;
+    transition: 0.4s;
+}
+
+.sec-5card:hover .sec-5card1 p {
+    display: block;
+}
+
 
 .sec-5card1 h2 {
     font-family: sans-serif;
@@ -569,37 +603,43 @@
     font-family: sans-serif;
 
 }
-.text1{
-   width:20%;
+
+.text1 {
+    width: 20%;
 }
-.text1 h3{
-color: #cccccc;
-font-size: 14px;
-text-transform: uppercase;
-font-weight: 300;
-letter-spacing: 1px;
-margin-bottom: 15px;
+
+.text1 h3 {
+    color: #cccccc;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
 }
-.text1 p{
-color: #999999;
-font-size: 14px;
-font-weight: 300;
-letter-spacing: 1px;
-line-height: 2;
+
+.text1 p {
+    color: #999999;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 2;
 }
-.text1 ul{
-list-style-type: none;
+
+.text1 ul {
+    list-style-type: none;
 
 }
-.text1 ul>li{
-  margin: 10px 0px;
+
+.text1 ul>li {
+    margin: 10px 0px;
 
 }
-.text1 a{
-   text-decoration: none;
-   font-size: 14px;
-  color: #000000;
-  font-weight: 300;
+
+.text1 a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    font-weight: 300;
 
 
 }
@@ -616,15 +656,18 @@ list-style-type: none;
     color: #2a82ed;
     text-decoration: none;
 }
-.f-icons{
+
+.f-icons {
     display: flex;
     gap: 20px;
 
 }
-.f-icons i{
-font-size: 18px;
+
+.f-icons i {
+    font-size: 18px;
 }
-.tx-w{
+
+.tx-w {
     width: 30%;
     margin-right: 60px;
 }
